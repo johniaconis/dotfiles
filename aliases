@@ -25,3 +25,33 @@ alias -- -="cd -"
 if [[ -f ~/.aliases.local ]]; then
   source ~/.aliases.local
 fi
+
+
+#git
+alias st="git status"
+alias pl="git pull"
+alias push="git push"
+alias br="git branch"
+alias co="git checkout"
+alias diff="git diff"
+alias dif="git diff"
+#alias cm="git commit"
+alias ad="git add"
+alias lst="co -"
+alias bco="git checkout -b"
+alias merge="git merge"
+alias mlast="git merge @{-1}"
+alias lnt="npm run lint"
+alias v="vim ."
+alias jo="co env/john"
+alias aw="node ~/random/scripts/awake.js"
+alias rmnm="rm -rf node_modules/"
+alias gmd="git merge develop"
+alias orc="co env/orchestration"
+alias o2="co env/orchestration2"
+alias v=vim
+alias oops="git reset --hard HEAD~1"
+alias dv="co develop"
+alias stash="git stash"
+alias aply="git stash apply"
+alias p1='git push --set-upstream origin "$(git rev-parse --abbrev-ref HEAD)"'
